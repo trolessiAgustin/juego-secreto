@@ -74,7 +74,7 @@ function reiniciarJuego(){
 
 function condicionesIniciales(){
     asignarElementoTexto(`h1`, "Juego Secreto");
-    asignarElementoTexto(`p`, `Ingrese un numero del 1 al ${numeroMaximo} culiao`);
+    asignarElementoTexto(`p`, `Ingrese un numero del 1 al ${numeroMaximo}`);
     numeroSecreto = generarNumeroSecreto();
     intentos = 1;
 }
